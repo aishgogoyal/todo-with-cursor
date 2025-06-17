@@ -1,12 +1,7 @@
-"use client";
+"use client"
 
-import TodoApp from "../../todo-app";
+import TodoApp from "../../todo-app"
 
-export default function Home() {
-  return (
-    <div className="font-sans">
-      <TodoApp />
-    </div>
-  );
+export default function Page() {
+  return <TodoApp />
 }
-
